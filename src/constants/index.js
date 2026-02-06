@@ -1,58 +1,104 @@
-import { image } from "framer-motion/client";
+// import { image } from "framer-motion/client";
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/image.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With months of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With months of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.I enjoy staying active, exploring new technologies, and contributing to open-source projects.`
 
+export const ABOUT_EXPERIENCE = [
+  {
+    role: "Web Developer Executive(MERN Stack)",
+    company: "Nians Technologies Pvt. Ltd.",
+    duration: "Sep 2024 – Present",
+  },
+  {
+    role: "Front-end Developer(Intern)",
+    company: "Ambitio",
+    duration: "Jan 2023 – March 2023",
+  },
+  {
+    role: "UI/UX Designer",
+    company: "Self-Employed(Freelance)",
+    duration: "Jul 2022 – Sep 2022",
+  },
+ 
+];
+
+
 export const PER_TEXT = `Apart from coding, I am a passionate and creative individual with a deep love for art, craft, and self-expression through various mediums. From painting and DIY projects to fashion design, I enjoy bringing my artistic visions to life. Dance and music are integral parts of my daily life, inspiring me to move freely and express emotions through rhythm and melody. As a content creator, I enjoy sharing my creative journey, connecting with others through engaging visuals and storytelling. My love for dogs further enhances my nurturing and empathetic nature, bringing joy and positivity to both my personal and professional endeavors.`
 export const EXPERIENCES = [
+  {
+  year: "2024 - Present",
+  role: "Master of Science (Pursuing)",
+  company: "Maharaja Ganga Singh University, Bikaner",
+   description:
+    "Focused on research-driven learning, data analysis, and applying scientific concepts to real-world problem solving.",
+  technologies: ["Biotechnology", "Advanced Genetics", "Python", "Analytical Skills"],
+},
+  {
+    year: "2021 - 2024",
+    role: "Bachelor of Science",
+    company: "Rajasthan University, Jaipur",
+    description:
+      "Built interdisciplinary expertise in Chemistry, Botany, and Zoology with hands-on lab work, data-driven analysis, and scientific problem-solving.",
+    technologies: ["Bioinformatics", "Zoology", "Botany", "Chemistry", "PoweeBI", "Python"],
+  },
 
   {
-    year: "2021 - 2024 Present",
-    role: "Bachlelors in Science",
-    company: "Rajsthan Universty.",
-    description: `I hold a Bachelor's degree in Science, majoring in Living Science, where I gained foundational knowledge in chemistry, zoology, and botany. The program emphasized practical life applications, equipping me with analytical and problem-solving skills across various scientific disciplines..`,
-    technologies: ["BioInfoMatics", "zoology", "Botany", "Chemistry"],
+    year: "2022 - 2023",
+    role: "MERN Stack Developer",
+    company: "Apna College",
+    description:
+      "Developed end-to-end MERN applications featuring authentication, role-based access, CRUD operations, RESTful APIs, database modeling, state management, and responsive UI with scalable architecture, deployed on cloud platforms.",
+    technologies: ["HTML", "CSS", "React", "Redux", "MySQL", "MongoDB", "Node.js", "Express"],
   },
-  {
-    year: "Jan 2024 - March 2024 ",
-    role: "Front-end Intern",
-    company: "Ambitio.",
-    description: `Completed a two-months, full-time remote internship at Ambitio,
-actively contributing to multiple front-end campaigns.
-Spearheaded the design of impactful landing pages, enhancing
-user engagement and achieving a 20% increase in click-through
-rates`,
-    technologies: ["UI-UX", "Figma", "HTML", "CSS", "React", "Redux", "mySQL"],
-  },
-  {
-    year: "2021 - 2023",
-    role: "UI & UX Designer",
-    company: "SkillToo",
-    description: `Learned to design and develop user interfaces for web applications using Figma , Adobe, Sketch.`,
-    technologies: ["Sketch", "UI-UX", "Figma", "Adobe"],
-  },
+
   {
     year: "2022 - 2023",
-    role: "MERN Stack",
-    company: "Apna College",
-    description: `Completed an extended Full Stack Web Development course by Apna College, led by Shardha Khapra, ex-Microsoft and DRDO employee. Gained expertise in both front-end and back-end technologies, including HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, and RESTful APIs. Developed and deployed four real-world projects, showcasing proficiency in building scalable, dynamic applications. This hands-on experience strengthened my technical skills and understanding of full stack development, preparing me to tackle complex web development challenges in a professional environment..`,
-    technologies: ["HTML", "CSS", "React", "Redux", "mySQL"],
+    role: "Data Structures & Algorithms",
+    company: "AttainU",
+    description:
+      "Strengthened problem-solving and algorithmic thinking through Data Structures, Algorithms, and DBMS using Python, with consistent LeetCode practice, logic-based programming, and Git-based version control for collaborative coding projects.",
+    technologies: ["Python", "OOPS", "DSA", "Git", "MySQL", "PostgreSQL"],
   },
+
   {
-    year: "2020 - 2021",
-    role: "Data Structure & Alorithim",
-    company: "Attainu",
-    description: `Attended a six-month online Python bootcamp by AttainU University, specializing in Data Structures & Algorithms (DSA), Database Management Systems (DBMS), and Version Control. The program, led by IIT alumni and former Google employees, provided a comprehensive understanding of core programming concepts, real-world problem-solving, and industry best practices. Developed strong coding skills, honed analytical thinking, and gained hands-on experience in building scalable applications. The bootcamp enhanced my technical expertise and prepared me for a career in software development.`,
-    technologies: ["Python", "OOPS", "DSA", "Git"],
+    year: "2021 - 2022",
+    role: "UI & UX Designer",
+    company: "SkillToo",
+    description:
+      "Designed intuitive interfaces through wireframes, multi-screen layouts (web, tablet, mobile), prototypes, and UX case studies with a focus on usability and accessibility",
+    technologies: ["Sketch", "UI-UX", "Figma", "Adobe"],
   },
 ];
 
+
+
 export const PROJECTS = [
+    {
+    title: "SyncSpace - Collaborative Workspace",
+    image: project5,
+    title2: "Automation SAAs Tool",
+    button: "click to see",
+    URL: "https://app.syncspace.com/",
+    description:
+      "A no-code workflow automation platform built using Next.js, React, TypeScript, Tailwind CSS, and Material UI, enabling multi-step workflows, webhook integrations, and secure token-based authentication, deployed on AWS with Nginx.",
+    technologies: ["Next.js", "TypeScript", "React", "REST-Apis", "MERN Stack"],
+  },
+  // {
+  //   title: "Lab pathology - Collaborative Workspace",
+  //   image: project5,
+  //   title2: "Automation SAAs Tool",
+  //   button: "click to see",
+  //   URL: "https://app.syncspace.com/",
+  //   description:
+  //     "A no-code workflow automation platform built using Next.js, React, TypeScript, Tailwind CSS, and Material UI, enabling multi-step workflows, webhook integrations, and secure token-based authentication, deployed on AWS with Nginx.",
+  //   technologies: ["Next.js", "TypeScript", "React", "REST-Apis", "MERN Stack"],
+  // },
   {
     title: "E-Commerce Website",
     image: project1,
@@ -73,17 +119,17 @@ export const PROJECTS = [
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "React", "JS"],
   },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    title2: "Aaina's Folio",
-    URL: "https://sharma-gadgets-store.netlify.app/",
-    button: "click to see",
-    URL: "https://sharma-gadgets-store.netlify.app/",
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap", "Tailwind"],
-  },
+  // {
+  //   title: "Portfolio Website",
+  //   image: project3,
+  //   title2: "Aaina's Folio",
+  //   URL: "https://sharma-gadgets-store.netlify.app/",
+  //   button: "click to see",
+  //   URL: "https://sharma-gadgets-store.netlify.app/",
+  //   description:
+  //     "A personal portfolio website showcasing projects, skills, and contact information.",
+  //   technologies: ["HTML", "CSS", "React", "Bootstrap", "Tailwind"],
+  // },
   {
     title: "Blogging Platform",
     image: project4,
