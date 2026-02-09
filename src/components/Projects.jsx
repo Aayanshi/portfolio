@@ -46,7 +46,7 @@ const Projects = () => {
                             <p
                               
                                 className="my-4">{project.title2}</p>
-                            <a href={project.URL} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-cyan-900">
+                            <a href={project.URL} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-cyan-700">
                                 {project.button}</a>
                         </motion.div>
                     </div>
