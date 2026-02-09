@@ -19,17 +19,19 @@ const ContactDrawer = ({ open, onClose }) => {
 
     const form = e.target;
     const formData = new FormData(form);
+    console.log("Form Data:", Object.fromEntries(formData.entries())); // Debug log
 
     try {
       await fetch("/", {
         method: "POST",
-        body: formData,
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
       });
 
-      setSuccess(true); // success message
-      form.reset(); // fields clear
-    } catch (error) {
-      console.log(error);
+      setSuccess(true);
+      e.target.reset();
+    } catch (err) {
+      console.log(err);
     }
   };
 
