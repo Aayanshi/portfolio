@@ -144,7 +144,7 @@ export const PROJECTS = [
 
 export const CONTACT = {
 
-  address: "767 Fifth Avenue, New Delhi, Nd 10153 ",
-  phoneNo: "+91 9116 901 762 ",
+  // address: "767 Fifth Avenue, New Delhi, Nd 10153 ",
+  // phoneNo: "+91 9116 901 762 ",
   email: "aayanshi1762@gmail.com",
 };
