@@ -4,6 +4,8 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/image.png";
+import project6 from "../assets/projects/health.webp"
+
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With months of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -82,23 +84,22 @@ export const PROJECTS = [
     {
     title: "SyncSpace - Collaborative Workspace",
     image: project5,
-    title2: "Automation SAAs Tool",
+    // title2: "Automation SAAs Tool",
     button: "click to see",
     URL: "https://app.syncspace.com/",
-    description:
-      "A no-code workflow automation platform built using Next.js, React, TypeScript, Tailwind CSS, and Material UI, enabling multi-step workflows, webhook integrations, and secure token-based authentication, deployed on AWS with Nginx.",
-    technologies: ["Next.js", "TypeScript", "React", "REST-Apis", "MERN Stack"],
+   description:
+    "A healthcare web platform for browsing and booking lab tests and diagnostic scans online, built with Next.js, Node.js, MongoDB, and Razorpay for seamless test discovery and secure online payments.",
+  technologies: ["Next.js", "React", "Node.js", "MongoDB", "Razorpay"],
   },
-  // {
-  //   title: "Lab pathology - Collaborative Workspace",
-  //   image: project5,
-  //   title2: "Automation SAAs Tool",
-  //   button: "click to see",
-  //   URL: "https://app.syncspace.com/",
-  //   description:
-  //     "A no-code workflow automation platform built using Next.js, React, TypeScript, Tailwind CSS, and Material UI, enabling multi-step workflows, webhook integrations, and secure token-based authentication, deployed on AWS with Nginx.",
-  //   technologies: ["Next.js", "TypeScript", "React", "REST-Apis", "MERN Stack"],
-  // },
+{
+  title: "Healthmate - Book Lab Tests & Health Scans Online",
+  image: project6,  
+  button: "click to see",
+  URL: "https://github.com/Aayanshi/Healthmate-labs",
+  description:
+    "A modern healthcare web application that allows users to easily browse, compare, and book lab tests and diagnostic scans online.The platform provides a responsive interface, seamless test discovery, and a smooth booking experience for health diagnostics.",
+  technologies: ["Next.js", "TypeScript", "React", "Tailwind CSS", "REST APIs"],
+},
   {
     title: "E-Commerce Website",
     image: project1,
